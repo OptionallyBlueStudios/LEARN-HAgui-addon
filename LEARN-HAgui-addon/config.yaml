@@ -1,0 +1,14 @@
+name: OPTB Learn | HA GUI Addon
+version: "1.0"
+slug: optbl-ha_guiaddon
+description: Read the title.
+startup: application
+boot: auto
+ingress: true
+ingress_entry: /
+panel_icon: mdi:monitor
+arch:
+  - amd64
+  - aarch64
+hassio_api: true
+host_network: false
