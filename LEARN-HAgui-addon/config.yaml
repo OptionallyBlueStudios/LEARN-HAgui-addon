@@ -6,6 +6,8 @@ startup: application
 boot: auto
 ingress: true
 ingress_entry: /
+panel: true            # <--- This enables the sidebar panel
+panel_icon: mdi:home   # <--- Icon shown in sidebar (use any mdi icon)
 panel_icon: mdi:monitor
 arch:
   - amd64
